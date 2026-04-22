@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="robots" content="noindex, nofollow">
+
+<title>Complete Robot — Plate not in catalogue (404)</title>
+<meta name="description" content="The page you were looking for is not in the catalogue. Return to Complete Robot.city.">
+
+<link rel="canonical" href="https://completerobot.ai/404">
+<meta name="theme-color" content="#0A1A22">
+<meta name="color-scheme" content="light">
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="alternate icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #F0E8D5;
+    --surface: #F8F1DE;
+    --bg-deep: #EDE3CB;
+    --ink: #0A1A22;
+    --ink-soft: #2D3C46;
+    --ink-faint: #5A6B75;
+    --brass: #B8860B;
+    --brass-dark: #7A5800;
+    --brass-light: #D4A82C;
+    --brass-soft: #EFE0A8;
+    --brass-faint: #F8EFC8;
+    --rule: rgba(10, 26, 34, 0.14);
+    --display: "Fraunces", Georgia, serif;
+    --body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --mono: "IBM Plex Mono", "Courier New", monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 100%;
+  }
+
+  /* HEADER */
+  header {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .wordmark {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--display);
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-variation-settings: "opsz" 72, "SOFT" 20, "WONK" 0, "wght" 800;
+  }
+
+  .wordmark-mark {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-meta {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+
+  .header-meta a {
+    padding: 12px 22px;
+    background: var(--ink);
+    color: var(--bg);
+    border-radius: 2px;
+    border: 1px solid var(--ink);
+    font-weight: 600;
+    transition: background 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .header-meta a:hover {
+    background: var(--brass-dark);
+    border-color: var(--brass-dark);
+  }
+
+  /* MAIN */
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0 100px;
+    position: relative;
+  }
+
+  .plate {
+    background: var(--surface);
+    border: 4px solid var(--brass);
+    padding: 80px 60px 64px;
+    max-width: 720px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+  .plate::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    border: 1px solid var(--brass-dark);
+    pointer-events: none;
+  }
+
+  /* Corner rivets */
+  .rivet {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: var(--brass-dark);
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+  }
+  .rivet::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 4px;
+    background: var(--brass-light);
+    border-radius: 50%;
+  }
+  .rivet.tl { top: 18px; left: 18px; }
+  .rivet.tr { top: 18px; right: 18px; }
+  .rivet.bl { bottom: 18px; left: 18px; }
+  .rivet.br { bottom: 18px; right: 18px; }
+
+  .plate-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--brass-dark);
+    margin-bottom: 28px;
+    display: inline-block;
+    padding: 8px 18px;
+    background: var(--brass-faint);
+    border: 1px solid var(--brass);
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .plate-code {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(120px, 22vw, 220px);
+    line-height: 0.85;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    margin-bottom: 12px;
+    font-variation-settings: "opsz" 144, "SOFT" 20, "WONK" 0, "wght" 800;
+    position: relative;
+    z-index: 1;
+  }
+
+  .plate-rule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 18px 0 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .plate-rule::before, .plate-rule::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: var(--brass-dark);
+  }
+
+  .plate-rule .diamond {
+    width: 8px;
+    height: 8px;
+    background: var(--brass);
+    transform: rotate(45deg);
+    border: 1px solid var(--brass-dark);
+  }
+
+  .plate-title {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(28px, 4.5vw, 42px);
+    line-height: 1.05;
+    letter-spacing: -0.024em;
+    margin-bottom: 22px;
+    font-variation-settings: "opsz" 48, "SOFT" 20, "WONK" 0, "wght" 800;
+    position: relative;
+    z-index: 1;
+  }
+
+  .plate-title em {
+    font-style: italic;
+    color: var(--brass-dark);
+    font-variation-settings: "opsz" 48, "SOFT" 50, "WONK" 1, "wght" 800;
+  }
+
+  .plate-prose {
+    font-size: 16px;
+    line-height: 1.68;
+    color: var(--ink-soft);
+    max-width: 480px;
+    margin: 0 auto 36px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .plate-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 30px;
+    background: var(--ink);
+    color: var(--bg);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    transition: background 0.2s ease, border-color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    position: relative;
+    z-index: 1;
+  }
+
+  .plate-cta:hover {
+    background: var(--brass-dark);
+    border-color: var(--brass-dark);
+  }
+
+  .plate-footer {
+    margin-top: 42px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Subtle grid background behind plate */
+  main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(184, 134, 11, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(184, 134, 11, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 32px 0;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+  }
+
+  /* MOBILE */
+  @media (max-width: 720px) {
+    .container { padding: 0 22px; }
+    header { padding: 24px 0; }
+    .header-meta .est { display: none; }
+    .header-meta a { padding: 10px 16px; font-size: 10px; }
+    main { padding: 48px 0 64px; }
+    .plate { padding: 56px 28px 44px; }
+    .plate::before { top: 10px; left: 10px; right: 10px; bottom: 10px; }
+    .rivet { width: 12px; height: 12px; }
+    .rivet.tl { top: 14px; left: 14px; }
+    .rivet.tr { top: 14px; right: 14px; }
+    .rivet.bl { bottom: 14px; left: 14px; }
+    .rivet.br { bottom: 14px; right: 14px; }
+    .plate-num { padding: 7px 14px; font-size: 10px; }
+    .plate-rule::before, .plate-rule::after { width: 50px; }
+    .plate-prose { font-size: 15px; }
+    .plate-footer { flex-direction: column; gap: 8px; text-align: center; }
+    .footer-row { flex-direction: column; gap: 12px; text-align: center; }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-row">
+      <a href="/" class="wordmark">
+        <svg class="wordmark-mark" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <polygon points="15,2 26,8.5 26,21.5 15,28 4,21.5 4,8.5" fill="none" stroke="#0A1A22" stroke-width="2.4" stroke-linejoin="round"/>
+          <polygon points="15,8 21,11.5 21,18.5 15,22 9,18.5 9,11.5" fill="#B8860B" stroke="#7A5800" stroke-width="0.8"/>
+          <circle cx="15" cy="15" r="1.6" fill="#D4A82C"/>
+        </svg>
+        Complete Robot
+      </a>
+      <div class="header-meta">
+        <span class="est">Est. MMXXVI · San Francisco</span>
+        <a href="mailto:tomasz@completerobot.ai">Email<span class="header-btn-extra"> Tomasz →</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="plate">
+      <div class="rivet tl"></div>
+      <div class="rivet tr"></div>
+      <div class="rivet bl"></div>
+      <div class="rivet br"></div>
+
+      <div class="plate-num">FIG. ∅ · NOT IN CATALOGUE</div>
+      <div class="plate-code">404</div>
+
+      <div class="plate-rule">
+        <span></span>
+        <span class="diamond"></span>
+        <span></span>
+      </div>
+
+      <h1 class="plate-title">This plate is <em>missing</em>.</h1>
+      <p class="plate-prose">Whatever you were looking for is not in the catalogue, and we don't have a forwarding address for it. The shortest path back is the front page, where the live plates are kept.</p>
+
+      <a href="/" class="plate-cta">Return to Complete Robot <span>→</span></a>
+
+      <div class="plate-footer">
+        <span>HTTP 404</span>
+        <span>COMPLETEROBOT.AI · MMXXVI</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <span>Complete Robot · MMXXVI</span>
+      <span>By Tomasz K. Stańczak</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

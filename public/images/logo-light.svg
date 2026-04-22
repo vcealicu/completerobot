@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 80" role="img" aria-label="Complete Robot (light variant)">
+  <title>Complete Robot</title>
+  <g transform="translate(8, 8)">
+    <polygon points="32,2 60,17 60,47 32,62 4,47 4,17" fill="none" stroke="#F0E8D5" stroke-width="3.4" stroke-linejoin="round"/>
+    <polygon points="32,15 48,23.5 48,40.5 32,49 16,40.5 16,23.5" fill="#B8860B" stroke="#D4A82C" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="32" cy="32" r="3" fill="#EFE0A8" stroke="#F0E8D5" stroke-width="0.6"/>
+  </g>
+  <text x="92" y="55" font-family="Fraunces, 'Times New Roman', Georgia, serif" font-size="38" font-weight="800" fill="#F0E8D5" letter-spacing="-0.5">COMPLETE ROBOT</text>
+</svg>
